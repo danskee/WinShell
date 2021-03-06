@@ -3,6 +3,9 @@
 ## Description
 A lightweight Windows shell alternative.
 
+## Command line arguments
+The program checks for updates on every startup. To disable this, use the "-noupdatechecks" argument. To open settings for the program, use the "-settings" argument, or otherwise the program will start minimized.
+
 ## Sytem Requirements
 - Windows 7 64-bit
 - .NET Framework 4.6

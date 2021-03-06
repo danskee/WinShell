@@ -1,4 +1,5 @@
 # WinShell
+![WinShell](https://github.com/danskee/WinShell/blob/main/screenshot.png)
 
 ## Description
 A lightweight Windows shell alternative. Potentially useful for example if you want to kill explorer and suspend winlogon.

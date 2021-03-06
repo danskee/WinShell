@@ -1,7 +1,7 @@
 # WinShell
 
 ## Description
-A lightweight Windows shell alternative.
+A lightweight Windows shell alternative. This is made so you can kill explorer and suspend winlogon.
 
 ## Command line arguments
 The program checks for updates on every startup. To disable this, use the "-noupdatechecks" argument. To open settings for the program, use the "-settings" argument, or otherwise the program will start minimized.

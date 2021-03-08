@@ -46,7 +46,7 @@ namespace WinShell
         WebClient wc = new WebClient();
         public bool checkforupdates = true;
         RunDialog RunDialog = new RunDialog();
-        AboutDialog AboutDialog = new AboutDialog("1.0.0");
+        AboutDialog AboutDialog = new AboutDialog("1.0.1");
         LicenseAgreementDialog LicenseAgreementDialog = new LicenseAgreementDialog();
         RegistryKey Settings = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\WinShell", true);
 
@@ -605,7 +605,7 @@ namespace WinShell
 
         private void CheckForUpdates()
         {
-            int currentversion = Convert.ToInt32("1.0.0".Replace(".", ""));
+            int currentversion = Convert.ToInt32("1.0.1".Replace(".", ""));
             newestver = wc.DownloadString("https://raw.githubusercontent.com/danskee/WinShell/main/version").Replace("\n", "").Replace("\r", "");
             int newestversion = Convert.ToInt32(newestver.Replace(".", ""));
 

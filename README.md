@@ -13,6 +13,7 @@ The program checks for updates on every startup. To disable this, use the "-noup
 
 ## Donation
 - Bitcoin: bc1q6wp87pk0papdj7ujcl5v22w0854n5jn8u2dwr7
+- Monero: 42mVvcoxD2BDD2CEYkEmXoYLUGV1ywCffJ2aqq8BtHLCD91cKGXa7CGMSL1m2skTueMcZqiJTCDErjJ4eC4CE1aUNmmxGTL
 
 ## License
 WinShell is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license. For more details, see the [LICENSE](https://github.com/danskee/WinShell/blob/main/LICENSE).
